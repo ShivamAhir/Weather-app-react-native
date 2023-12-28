@@ -9,7 +9,6 @@ import { Feather } from '@expo/vector-icons'
 const Tab = createBottomTabNavigator()
 
 const Tabs = ({ weather }) => {
-  console.log(weather)
   return (
     <Tab.Navigator
       screenOptions={{
